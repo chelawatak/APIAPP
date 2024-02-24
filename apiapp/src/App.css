@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+  overflow-x:hidden;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.createcss{
+  font-weight: 600;
+  font-size: x-large;
+  padding: 15px;
+  border: 2px solid #233635;
+  border-radius: 30px;
+  background-color: #7ac0bb;
+}
+
+
+
+.logincss{
+  margin-top:2%;
+  font-weight: 600;
+  font-size: x-large;
+  padding: 15px;
+  border: 2px solid #414864;
+  border-radius: 30px;
+  background-color: #7a86c0;
+  width: 50%;
+}
+
+
+.signupcss{
+  margin-top:2%;
+  font-weight: 600;
+  font-size: x-large;
+  padding: 15px;
+  border: 2px solid #416447;
+  border-radius: 30px;
+  background-color: #7ac089;
+  width: 50%;
+}
+
+.cardcss{
+  margin-top:2%;
+  font-weight: 600;
+  font-size: large;
+  padding: 15px;
+  border: 2px solid #644155;
+  border-radius: 30px;
+  /* background-color: #b5d6d9; */
+  width: 50%;
+}
+
+/* .getNote:visited{
+  /* display: none; 
+} */
