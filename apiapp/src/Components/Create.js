@@ -18,7 +18,7 @@ const Create = (props) => {
   const handleSubmit = async(e) =>{
     e.preventDefault();
 
-    const response = await fetch("https://api-app/onrender.com/api/notes/newnote", {
+    const response = await fetch("https://api-app-hgnw.onrender.com/api/notes/newnote", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

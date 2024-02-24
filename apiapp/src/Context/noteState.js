@@ -3,7 +3,7 @@ import { useState } from "react";
 import React from "react";
 
 const NoteState = (props) => {
-  const host = "https://api-app.onrender.com";
+  const host = "https://api-app-hgnw.onrender.com";
   // const host = 'localhost:3000';
   const notesInitial = [];
   const [notes, setNotes] = useState(notesInitial);

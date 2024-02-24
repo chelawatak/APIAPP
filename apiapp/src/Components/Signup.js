@@ -11,7 +11,7 @@ const Signup = () => {
 
   const handleClick = async(e) =>{
     e.preventDefault();
-    const response = await fetch("https://api-app/onrender.com/api/auth/newuser", {
+    const response = await fetch("https://api-app-hgnw.onrender.com/api/auth/newuser", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"

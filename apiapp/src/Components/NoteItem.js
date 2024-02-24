@@ -10,7 +10,7 @@ const NoteItem = (props) => {
   const notesInitial = [];
   const [notes, setNotes] = useState(notesInitial);
   const deleteNote = async(id) =>{
-    const response = await fetch(`https://api-app/onrender.com/api/notes/deletenote/${id}`, {
+    const response = await fetch(`https://api-app-hgnw.onrender.com/api/notes/deletenote/${id}`, {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",

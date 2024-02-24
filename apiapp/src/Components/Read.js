@@ -8,7 +8,7 @@ const Read = () => {
   const [notes, setNotes] = useState(notesInitial);
 
   const handleClick = async(e) =>{
-    const response = await fetch("https://api-app/onrender.com/api/notes/fetchnote", {
+    const response = await fetch("https://api-app-hgnw.onrender.com/api/notes/fetchnote", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
